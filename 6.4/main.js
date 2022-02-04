@@ -5,7 +5,7 @@ const FirstUppercase = ()=> {
 	console.log(Frstlet(name));
 }
 
-const Frstlet = function ucFirst(str) {
+const Frstlet = (str) => {
 
 	str = str.charAt(0).toUpperCase() + str.slice(1);
 
