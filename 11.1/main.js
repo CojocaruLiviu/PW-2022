@@ -6,8 +6,15 @@ setTimeout(function BackgroundGreen() {
 },3000);
 
 
-function Return_orange(){
 
+
+element.innerHTML = document.createElement("button");
+
+btn.innerHTML = "Orange";
+
+btn.addEventListener("click", function () {
     document.body.style.background = "orange";
+});
 
-}
+document.body.appendChild(btn);
+
