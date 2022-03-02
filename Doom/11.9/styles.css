@@ -12,11 +12,16 @@ button{
   border-radius: 10px;
 }
 
-input[type=number]{
+input[type=text]{
   width: 15%;
   padding: 10px 15px;
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid green;
+}
+
+.notification{
+  margin-right: 10px;
+  margin-top: 10px;
 }

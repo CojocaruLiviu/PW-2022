@@ -12,11 +12,30 @@ button{
   border-radius: 10px;
 }
 
-input[type=number]{
+input[type=text]{
   width: 15%;
   padding: 10px 15px;
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid green;
+}
+
+#field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: green;
+  width: 600px;
+  height: 400px;
+
+}
+
+#ball{
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+
 }
