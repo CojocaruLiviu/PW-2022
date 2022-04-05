@@ -1,4 +1,4 @@
-function checkColor(color, pos) {
+const checkColor = (color, pos) => {
 
   for (let i = 0; i < color.length; i++) {
 
@@ -18,13 +18,13 @@ function checkColor(color, pos) {
 
 }
 
-function Masiv_position() {
+ const Masiv_position = () => {
 
-  const position = document.getElementById("position").value;
+  let position = document.getElementById("position").value;
 
-  const colors = ['red', 'green', 'blue'];
+  let colors = ['red', 'green', 'blue'];
 
-  const result = checkColor(colors, position);
+  let result = checkColor(colors, position);
 
   console.log(result);
 

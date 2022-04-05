@@ -1,4 +1,4 @@
-const weekDays = {
+let weekDays = {
 	"Mo": "Понедельник",
 	"Tu": "Вторник",
 	"We": "Среда",
@@ -9,7 +9,7 @@ const weekDays = {
 }
 
 
-function translate(weekTransl){
+const translate = (weekTransl) => {
 
 		weekTransl["Mo"] = "Luni"; 
 		weekTransl["Tu"] = "Marti";

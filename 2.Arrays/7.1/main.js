@@ -1,5 +1,5 @@
 
-function Masiv_for() {
+const Masiv_for = () => {
   let val, n = [];
   val = document.getElementById("num").value;
   val = parseInt(val, 10);
@@ -12,7 +12,7 @@ function Masiv_for() {
 
 }
 
-function Masiv_while() {
+const Masiv_while = () => {
   let val, n = [];
 
   val = document.getElementById("num").value;
@@ -29,7 +29,7 @@ function Masiv_while() {
 }
 
 
-function Masiv_dowhile() {
+const Masiv_dowhile = () =>{
   let val, n = [];
   val = document.getElementById("num").value;
   val = parseInt(val, 10);
@@ -45,7 +45,7 @@ function Masiv_dowhile() {
 
 }
 
-function Masiv_for_in() {
+const Masiv_for_in = ()=> {
   let val, n = [];
   val = document.getElementById("num").value;
   val = parseInt(val, 10);

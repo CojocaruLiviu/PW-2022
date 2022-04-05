@@ -4,9 +4,9 @@ const listItems = document.getElementsByTagName("li");
 
 let i = 1;
 setInterval (() => {
-    if (i <= 20){
+    if (i <= 10){
         const list = document.createElement("LI");
-        const elements = document.createTextNode(`Element ${i}`);
+        const elements = document.createTextNode(`Element Nr. ${i}`);
         list.appendChild(elements);
         document.getElementById("list").appendChild(list);
         if (i % 2 === 0) {

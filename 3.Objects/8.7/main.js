@@ -1,4 +1,4 @@
-person = {
+let person = {
 	name : 'Person',
 	get name1(){ 
 		return 'Name is ' + this.name;

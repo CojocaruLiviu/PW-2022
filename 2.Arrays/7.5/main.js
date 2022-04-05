@@ -1,4 +1,4 @@
-function convert(square, a) {
+const convert = (square, a)=> {
 
   const result = [];
   for (var i = 0; i != a.length; i++)

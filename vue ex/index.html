@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="Calculator">
+        <div id="top">
+            <h1>Calculator</h1>
+            <label for="">Input salary</label><br>
+            <input type="number" min=1 max=4000 v-model="number"><br>
+            <label for="">Chose month</label><br>
+            <select name="months" v-model="months">
+                <option v-for="month of 12" :value="month">{{month}}</option>
+            </select><br>
+            <label for="">Input procents</label><br>
+            <input type="number" min=1 max=4000 v-model="procent"><br>
+            <button @click="CalculateResult()">Calculate</button><br>
+            <button @click="CalculateResultWithProcent()">CalculateWithProc</button><br>
+        </div>
+        <hr style="width:20%">
+
+        <div id="bottom">
+            {{info}} {{SumProc}}
+            <li style="list-style-type: none;" v-for="key in results">
+                {{ key }}
+            </li>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

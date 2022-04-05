@@ -1,4 +1,4 @@
-const weekDays = {
+let weekDays = {
 	"Mo": "Luni",
 	"Tu": "Marti",
 	"We": "Miercuri",
@@ -8,7 +8,7 @@ const weekDays = {
 	"Su": "Duminica",
 }
 
-function interchange(weekTransl){
+const interchange = (weekTransl) => {
 let value;
 	for (let i in weekTransl) {
 			

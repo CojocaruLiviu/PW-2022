@@ -1,4 +1,4 @@
-const person = {
+let person = {
 	name: 'Person',
 	age: 123,
 	salary: 1542.33,

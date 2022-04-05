@@ -1,5 +1,5 @@
 
-function sumInputNumbers() {
+const sumInputNumbers= () => {
 
         var val = 0, n = [], sum = 0;
 

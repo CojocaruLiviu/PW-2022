@@ -1,5 +1,5 @@
 
-const user = { 
+let user = { 
     name: "John",
     surname: "Smyth"
   };

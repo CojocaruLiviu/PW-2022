@@ -6,7 +6,7 @@ const emptyTodoList = document.getElementById("emptyTodoList");
 const todoList = [];
 
 const showTodoList = () => {
-    if(todoList.length){
+    if (todoList.length) {
         todoListContainer.innerHTML = "";
         for (const todoItemIndex in todoList) {
             const newTodoItem = document.createElement("li");

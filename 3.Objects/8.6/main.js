@@ -4,7 +4,7 @@ const arr = [
 
 let aux = [];
 
-function check(val) {
+const check = (val) => {
 
 	for (let j = 0; j < val.length / 2; j++) {
 

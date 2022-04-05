@@ -1,47 +1,44 @@
-const person = {
+let person = {
 	name: `Person`,
 	age: 123,
 	salary: 1542.33,
 	contacts: {
 		phone: `112`,
 		email: 'email@domain.com'
-},
-address: `Moldova`
+	},
+	address: `Moldova`
 }
 
-const person1 = {
+let person1 = {
 	name: `Person`,
 	age: 123,
 	salary: 1542.33,
 	contacts: {
 		phone: `112`,
 		email: 'email@domain.com'
-},
-address: `Moldova`
+	},
+	address: `Moldova`
 }
 
-const person2 = new Object();
-function combin(first, second, thirth){
-
-	/*if (first.name == second.name) {
-		thirth.name = first.name;
-	}*/
-
+let person2 = new Object();
+const combin = (first, second) => {
+	const thirth = [];
 	for (const i in first) {
-		
-			for (const key in second) {
-				
-					if (i == key && first[i] == second[key]) {
-						thirth[i] = first[i];
-						
-					}
-				}
+
+		for (const key in second) {
+
+			if (i == key && first[i] == second[key]) {
+				thirth[i] = first[i];
+
 			}
 		}
-	
+	}
+	return thirth;
+}
 
 
-combin(person, person1, person2)
+
+thirth = combin(person, person1)
 
 
-console.log(person2);
+console.log(thirth);
